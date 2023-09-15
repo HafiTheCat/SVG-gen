@@ -1,0 +1,22 @@
+{
+	"name": "svg-gen",
+	"version": "0.1.0",
+	"description": "Generation of assets from SVG",
+	"author": "HafiTheCat <https://github.com/HafiTheCat>",
+	"license": "MIT",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"dependencies": {
+		"@svgdotjs/svg.js": "^3.1.2",
+		"color": "^4.2.3",
+		"nodemon": "^2.0.15",
+		"sharp": "^0.30.4",
+		"svgdom": "^0.1.10"
+	},
+	"devDependencies": {
+		"@types/sharp": "^0.32.0"
+	}
+}
